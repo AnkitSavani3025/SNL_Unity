@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2440603790381343002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2440603790381343004}
+  - component: {fileID: 2440603790381343005}
+  m_Layer: 0
+  m_Name: TempGameSDK
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2440603790381343004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440603790381343002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2440603790381343005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440603790381343002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e1e3938078d4911905aca89dbdad4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AuthToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDE4MmZiNmUyZDBiNDgzMmIxNWQxOGQiLCJpYXQiOjE2NzkzNzczODZ9.uAZgpzNY25XdCXJnbFvsV1C4u3matIXP5TOkCzbiNmM  '
+  __userId: 64182fb6e2d0b4832b15d18d
+  lobyid: 64194032d93e43e05a099960
+  userName: Ani
+  gameId: 64194011d93e43e05a0998b1
+  Isbot: 0
+  IsFTUE: 1
+  isPlay: 0
+  noOfPlayer: 2
+  nofRound: 0
+  entryFee: 2
+  serverType: 0
+  ALLServerURL:
+  - http://172.20.11.53
+  - http://172.20.11.53
+  - http://172.20.11.53
+  - http://172.20.11.53
+  - http://172.20.11.53
+  ALLServerPortNo: 0a1a00000a1a00000a1a00000a1a00000a1a0000
+  assetBundle: {fileID: 0}
+  sdkConfig:
+    data:
+      accessToken: 
+      lobbyData:
+        minPlayer: 0
+        noOfPlayer: 0
+        _id: 
+        entryFee: 0
+        moneyMode: 
+        isUseBot: 0
+        noOfRounds: 0
+        IsFTUE: 0
+        winningAmount: 0
+      gameData:
+        assetsPath: 
+        game: 
+        gameId: 
+        isPlay: 0
+      playerData: []
+      selfUserDetails:
+        userID: 
+        mobileNumber: 
+        displayName: 
+        avatar: 
+      socketDetails:
+        hostURL: 
+        portNumber: 
+        socketTimeOut: 0
+  myshaders: []

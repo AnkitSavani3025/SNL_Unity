@@ -1,0 +1,11 @@
+ManifestFileVersion: 0
+CRC: 3357903735
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: snlresourcebundle
+      Dependencies: {}
+    Info_1:
+      Name: snl
+      Dependencies:
+        Dependency_0: snlresourcebundle
